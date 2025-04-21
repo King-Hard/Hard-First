@@ -5,3 +5,5 @@
 - 4, (How to create new line between 2 texts oh tinatawag na Break Tag) <!-- <br> --> kunyari Hello World gusto natin gawin na Hello sa tass World sa naman sa taas gagawin lang natin maglalagay tayo ng br, wala tong closing tag kaya yung mismong br lang ilalagay natin.
 - 5, (How to create Bold text) <!--<b>Bold Text</b>--> Dito naman yung text natin pwede natin i-bold ang mangyayari non parang madodoble yung color ng text natin compare sa text na hindi naka bold yung format.
 - 6, (How to create anchor tag) <!-- <a href"link">Home</a>--> Yung anchor tag natin is sya yung link, kumbaga linking file to other file. (Bali gagawin natin a href eqaual sign "then yung link" Name nung link then yung close tag na natin para sa anchor tag)
+(meron tayong dalawang attribute href and target. Yung href is maglalagay tayo ng link kung san natin gusto pumunta yung page natin pag pinindot na natin yung link natin. Then yung sa target naman is may certain destination tayo kung san natin gusto mag open yung link natin sa new tab ba or sa current tab lang natin kumbaga di na sya magbubukas pa ng bagong tab)
+- 7, 

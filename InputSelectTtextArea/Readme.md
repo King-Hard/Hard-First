@@ -11,11 +11,9 @@ number - (Dito naman kapagka-need natin ng number input ni user katulad sa verif
 tel - (Dito naman same lang din sa ano kapagka kukuha tayo ng gmail nad password info ni user. Pero heto number naman kumbaga sa signup page ayaw ni user na gumamit ng email instead na email may choice sya which is tel phone number yung gagamitin.)
 search - (Dito naman searh bar, hihingi tayo ng certain content na need ni user para ma provide ng search engine natin.)
 url - (Dito naman kapagka-url, katulad nung mga online videos downloader nanghihingi tay ong link nung video para ma generate natin and then malagyan natin ng functionn na downloiad.)
-2.2, May mga attributes pa yung input lement natin:
+2.2, May mga attributes pa yung input element natin:
 -Place holder - Dito naman sya yung text na naka display don sa loob ng text input natin example yung iput type nato para aware si user na gantong type yung need nya na ilagay lalagay lang tay ong place holder, like type your email address.
--minlenght - Dito naman minimum number of texts na pwedeng ilagay lang ni user, example 3 to letters lang
--maxlenght -  Dito naman miximum number of letters na pwedeng ilagay lang ni user, example sa password 8 letters lang yung ia-allowed natin na ilagay nya
--size - Dito naman kung ganong kahaba yung text input natin yung size nya na pwedeng pag-inputan ng text ni user.
+-Value - Dito naman para lang to sa butto natin kung gusto natin na change yung name ng button natin, example yung sa submit naka default sya sa name nya na submit. Eh gusto nating ibahin yung name ngayon gagamit lang tayo ng attribute na value.
 2.3, May attribute tayo para sa input user natin, importante to which is the (required) - Funtion neto is need ni user na fill up-an yung input text natin bago nya ma click yung button natin.
 3, text area 
 4, select

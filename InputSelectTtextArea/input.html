@@ -26,7 +26,7 @@
         <center>
             <form target="_self" action="home.html">
                 <p>Do you have any questions?</p>
-
+                <label>Email address:</label>
                 <input type="email" placeholder="Email address"><br><br>
 
                 <textarea placeholder= "Messages" rows="10" cols="20"></textarea><br>
@@ -45,6 +45,42 @@
             <input type="submit"/>
         </form>
 
+        <!--Meron tayong text area ang function neto is para syang input type pero hindi to attribute kase type of element to may close tag, bali may 3 attributes tayo para sa text area element natin: rows, cols, and placeholder. Sa sa rows and cols sila yung magigi size ng message box natin bali sa rows king ganong kahaba yung message box and sa cols kung ganong kalawak yung message box natin. Then sa placeholder natin para lang ma indicate ni user kung ano yung ilalagay nya na info sa loob ng image boc natin.
+
+Sa select and option naman mag combine to, sa select sya yung paianaka-body natin para makagawa tayo ng dropdown list and then yung option natin sila yung ma magiging laman ng dropdown list natin. Bali may mga attribute sila sa select attribute nya is name bali ginagamit lang antin to para makagawa tayo ng variable sa loob ng select element natin para pwede natinn sya manipukate using the  variable, ganon lang din sa option pero vale naman yung variable nya same concept para mamanipulate natin yung option naitn ka[pagka pinindot ganon bali varibale lang sila.-->
+
+<!--Ginawa lang natin dito form body para makagawa tayo ng form then naglagay tayong ng dalwang attributes nya targe and action sa target kung san maglo-load yung form natin pag na submit na new tab ba or current tab, then sa action link kung san mapupunta si user pagnssubmit nya na yung form. Then naglagay lang tayo ng input type na email diro para makuha natin yung email address ni user, kaya email type ginamit natin para ma sure natin na email address tala ni user yung nilagay nya and then sa placeholder attribute naman para lang ma indicate ni user na email address nya dapat yung ilagay nya sa loob ng input type natin. Sa textarea naman elements to amy 3 attributes tayo na ginagamit para dito: rows, cols, and placeholder. Sa woes kung ganong kahaba yung message box natin, sa cols kung ganong kalawak yung message box natin, then last sa placeholder para lang am indicate ni usr kung ano yung ilalgay nya na info sa loob ng message box natin. Then naglagay na tayo dito ng input type na submit para sa pag submit ng foem natin.-->
+        <br>
+        <form target="_self" action="pogi.html">
+            <input type="email" placeholder="Email address"/><br>
+            <textarea rows="10" cols="20" placeholder="Messages"></textarea><br>
+            <input type="submit"/>
+        </form><br>
+
+<!--Dito ginawa natin form element lang ulit then yung dalwang attributes natin target and action. Target direction ng page natin pag na load na current tab pa or new tab, action link kung san mapupunta si user pag na submit nya na form natin. Select element and then yung caption element magkapartner to para makagawa tayo ng dropdown list. Sa slect sya yung pinaka-body natin para makagawa tayo ng dropdownlist and then yunng option heto naman yung magigigng laman ng dropwdownlist natin kaya sila magkapartner, bali container and then item. Guammit lang din ako ng attribute nila for varibale naming name and value, name is para sa slect element natin, then yung sa option element naman natin is value yung ginagamit sa pag naming ng variable.-->
+
+        <form target="_self" action="pogi.html">
+            <select name="Colors">
+                <option value="color1">Red</option>     
+                <option value="color2">Green</option>  
+                <input type="submit"/>   
+            </select>
+        </form>
+
+
+
+        
+
+
+
+
+
+
+
 
     </body>
 </html>
+
+
+
+

@@ -19,7 +19,6 @@ url - (Dito naman kapagka-url, katulad nung mga online videos downloader nanghih
 4, select - Heto naman yung dropw down list natin.
 5, option - Heto naman yung value sa loob ng drop down list natin.
 4 and 5, Select element natin yung function neto is parang body sya nung magigigng drop dwon list natin katulad nung sa mga foem ganon para makagawa tayo ng ng forl need natin ng body form, ganon din dito sa Slect element para makagawa tayo ng dropdown list need natin ng body na slect element, and then sa option naman simple lang to sya yung magiging laman ng dropdoown list natin, kunyari sa Services tas pagpinindot natin yung dropdown list lalabas ngayon yung mga option natin na belong sa services. Meron tayong attributes para sa Select element natin: multiple heto lang yung pinaka commonly use natin bali ang funtionn neto is kung ganong lkarami ang pwedeng select ni user sa loob ng dropdownlist natin. Magand gamitin attribute nato kapagka may lsit tayo ng nagtatanong kung anong favorite nya kunya na fruits then sa option natin lalagay tao ng ilang fruits napagpipilian ni user then, gagawin natin multiple para ma select ni user kung ano-anong fruits yung gsuto nya sa loob ng dropdown list natin. Then may isa pa pala tayong attribute foe select element which is the name attribute kumbaga sa prog lanubgae variable yung ibig sabihin ng name attribbute natin na to, magagamit natin saya paglalagyan nanatin ng function yung dropdown list natin.
-6, optgroup
-7, label
+6, label - Heto naman label lang kumbaga sa input type natin nag-iindicate don to kung ano yung ty-type ni user sa loob ng input type natin kamuka lang sya ng place holder natin pero heto nasa labas ng input ype naondon naka pwesto sa unahan ng input natin then yung palceholder naman nasa loob nakalagay.
 
-
+ 

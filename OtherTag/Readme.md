@@ -5,3 +5,6 @@
 3, script
 4, iframe
 5, progress
+
+
+1, Sa paglagay ng icon sa loob ng web page natin gagamit lang tayo ng rel icon then href para sa link ng logo natin. Sa pag connect naman ng css file natin don sa html is rel stylesheet lang then href file link naman ng css file natin

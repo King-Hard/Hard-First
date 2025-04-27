@@ -8,3 +8,5 @@
 
 
 1, Sa paglagay ng icon sa loob ng web page natin gagamit lang tayo ng rel icon then href para sa link ng logo natin. Sa pag connect naman ng css file natin don sa html is rel stylesheet lang then href file link naman ng css file natin
+2, sapag link ng css file natin sa html is link rel="stylesheet" then href="Link" lang then sa pag link naman ng js file natin don sa html file natin is script tag lang then src="Link" then yung close tag ng script tag natin.
+3, Always using indicator for nav-bar, header, section, and footer. Using id&class and div.

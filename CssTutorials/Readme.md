@@ -1,0 +1,6 @@
+# Text colors and sizing
+- First css lesson
+1, selector - Heto naman yung element tag na gusto nating lagyan ng design, example sa paragraph natin gusto natin sya lagyan ng color ano ba yung element tag natin for paragraph which is the p and then curly braces maglalagay tayo tas sa loob ng curly braces natin dito na tayo gagawa ng styling para sa paragraph text natin.
+2, color - Bali anf format neto color, colon, color na gusto natin, and then yung seme xolon natin. Mahalaga yung colon and semicolon nato. Bali kunyari yung ipapagawa natin like color after natin ilagay yung color maglalagay naman tayo ng colon and then yung coor na gusto natin, lastly yung semicolon to run our color styling.
+3, font-size - Dito naman ganon din it means font daw tapos gumamit tayo ng minus sign dito kase yung font lalagyan daw natin ng size pag na type nanatin to, colon naman, then yung size naman ngayon ng font natin, and then the last hindi pwedeng mawala whis is the semicolon.
+4, Inline - Heto naman parang gumagamit tayo ng tailwind dito kase yung designing natin nasa loob na sya ng elemnt tag natin. Need lang natin ng style tag sa loob ng element tag natin tapos yung gusto natin baguhin sakanya like color, and font size.

@@ -1,0 +1,38 @@
+.nav-background{
+    background:#f3e5c3;
+}
+a{
+    color:#174E4F;
+    font-size: 20px;
+}
+
+h1{
+    color:#174E4F;
+    font-size: 30px;
+}
+
+p{
+    color:grey;
+    font-size: 18px;
+}
+
+input{
+    background: #174E4F;
+    color:white;
+}
+
+.section{
+    background:red;
+}
+
+.heading-red{
+    color:white;
+}
+
+.text{
+    color:black;
+}
+
+.red-color{
+    color:red;
+}

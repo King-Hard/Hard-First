@@ -1,0 +1,38 @@
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.hero{
+    width: 25.25rem;
+    height: 10.1875;
+    position: absolute;
+    top: 10.125rem;
+    left: 6.125rem;
+    
+}
+
+.hero p{
+    color:#174E4F;
+}
+
+.hero h1{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.75rem;
+}
+
+.hero span{
+    font-size: 6.25rem;
+}

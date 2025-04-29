@@ -32,7 +32,7 @@ h1 { font-size: 2rem; }    /* 32px */
 background - para naman to sa background, example may plain text tayo and gusto natin sya lagyan ng background color heto yung gagamtiin natin para magawa natin yon.
 3, width and height - para to sa container natin mga boxes natin ganon, kung gano kahaba at kalawak.
 4, rem - ginagamit natin to pang sizing ng text or ng width and height natin. Best prcatices natin instead using px, gagamit na lang tayo ng rem for sizing (1rem equal to 16px)
-5, 
+5, text-align - may 4 types tao para sa text align: left, right, center, and justify.
 
 
 

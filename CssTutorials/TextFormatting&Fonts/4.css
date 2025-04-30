@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Teko:wght@300..700&display=swap');
 .left{
     text-align: left;
 }
@@ -15,11 +17,10 @@
 }
 
 .hero{
-    width: 25.25rem;
-    height: 10.1875;
     position: absolute;
     top: 10.125rem;
     left: 6.125rem;
+    background-color:bisque;
     
 }
 
@@ -28,11 +29,22 @@
 }
 
 .hero h1{
-    
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
     font-size: 3.75rem;
+    line-height: 3.5rem;
 }
 
 .hero span{
     font-size: 6.25rem;
 }
+
+.section p{
+    font-family: 'Coral Pixels', sans-serif;
+}
+
+.teko{
+    font-family: Teko, sans-serifs;
+    font-size: 3rem;
+    
+}
+

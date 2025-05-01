@@ -58,14 +58,13 @@ h1 { font-size: 2rem; }    /* 32px */
 5, outline property (none) - magagamit natin to sa mga input types natin para may sa rili tayong border hindi yung naka default lang. Using outline with his property na none matatanggal natin yung outline then makakapaglagay tayo ng sarili natin outline using border.
 
 # Pseudo classes
-1, :hover
-2, :active
-3, :focus
-4, :checked
+1, :hover - pagnatpatan ng cursor natin yung button or something na lalagyan natin ng hover is magkakaroon sya ng transition, example sa button from color white background to color yellow background using hover natin.
+2, :active - heto naman pag may cini-click tayo parang hover lang din to pero sa hover natin pag natapatan ng cursor dito naman pag clinick natin yung obkect natin magkakroon tayo transition.
+3, :focus - dito naman maganda to gamitin sa input types natin para ma indicate natin na andon tayo sa certain input type natin using border ganon or kaya naman color.
+4, :checked - heto naman sa mga checkbox natin pagclinick natin magiging mali yung checkbox ganon.
 
 # Transitions
-1, 
-2, 
+1, transition property (seconds) - para mas smooth lang transition natin kapag nagho-hover tayo, active, focus and so on.
 
 # Container positions
 1, position property (absolute) - 

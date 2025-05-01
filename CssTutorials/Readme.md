@@ -49,6 +49,12 @@ h1 { font-size: 2rem; }    /* 32px */
 4, overflow property (hidden) - for container - Para to sa pag naglagay tayo ng image sa loob ng container natin is hindi sya lalagpas sa pinaka-size ng container natin
 5, object-fit property (cover or contain) - for image - ginagamit natin to para masakop yung mismong image natin using object-fit and then the property cover.
 
+# Border
+- padding property (#rem) - heto yung gumagawa ng spacing natin between content and border natin.
+- margin (#rem) - heto naman yung spacing sa labas ng border natin kung gano sya kalayo sa main size ng webpage natin.
+- border property (#rem, solid, and color for border) - heto naman para makapaglagay tayo ng border need lang natin ilagay border then yung 3 proprties nya na #rem, solid, and color Size ng border, solid ba sya yung border line, and then color ng border line natin
+- border-radius property (#rem) - yung raduis nato is yung 4 na sulok ng border natin is magiging rounded sya parang pabilog
+
 # Container positions
 - position property (absolute) - 
 - top, bottom, left, right. - para naman to sa absolute position natin para ma manipulate natin yung position ng container natin.

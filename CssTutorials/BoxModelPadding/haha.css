@@ -1,0 +1,16 @@
+body{
+    margin: 0rem;
+}
+
+header{
+    background: grey;
+}
+
+.logo img{
+    padding: 2rem 1rem;
+}
+
+nav{
+    padding: 1rem 1rem 1rem 20rem;
+}
+

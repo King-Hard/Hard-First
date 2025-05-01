@@ -41,6 +41,7 @@ h1 { font-size: 2rem; }    /* 32px */
 5, text-indent proprty (#rem) - heto naman yung text natin pwede natin ma align papuntang kanan depende sa bilang ng rem natin.
 6, line-height proprty (#rem) - heto naman yuhng height between 2 words natin.
 7, font-family proprty (font name, sans-serif)- Para ma change natin yung pinaka-font type natin, para magawa natin to need natin pumunta sa google fonts saka tayo maghahanap ng font na gagamitn natin para sa ginagawa natin website. Ngayon pag may nahanp na tayo punta lang tayo embeded, then kunin natin yung import code nya tas paste lang natin sa css natin, then font-family tas lagay natin yung name ng font na nakuha natin, tapos lagay lang tayo ng sans-serif mahalaga na meron neto.
+8, font-weight - para to sa kapal ng text natin naka bold ba ganon, semi bold, and son on.
 
 # Backgrounds
 1, background-color property (all colors available) - Function neto magkakaroon ng color yung background ng container natin
@@ -50,12 +51,23 @@ h1 { font-size: 2rem; }    /* 32px */
 5, object-fit property (cover or contain) - for image - ginagamit natin to para masakop yung mismong image natin using object-fit and then the property cover.
 
 # Border
-- padding property (#rem) - heto yung gumagawa ng spacing natin between content and border natin.
-- margin (#rem) - heto naman yung spacing sa labas ng border natin kung gano sya kalayo sa main size ng webpage natin.
-- border property (#rem, solid, and color for border) - heto naman para makapaglagay tayo ng border need lang natin ilagay border then yung 3 proprties nya na #rem, solid, and color Size ng border, solid ba sya yung border line, and then color ng border line natin
-- border-radius property (#rem) - yung raduis nato is yung 4 na sulok ng border natin is magiging rounded sya parang pabilog
+1, padding property (#rem) - heto yung gumagawa ng spacing natin between content and border natin.
+2, margin (#rem) - heto naman yung spacing sa labas ng border natin kung gano sya kalayo sa main size ng webpage natin.
+3, border property (#rem, solid, and color for border) - heto naman para makapaglagay tayo ng border need lang natin ilagay border then yung 3 proprties nya na #rem, solid, and color Size ng border, solid ba sya yung border line, and then color ng border line natin
+4, border-radius property (#rem) - yung raduis nato is yung 4 na sulok ng border natin is magiging rounded sya parang pabilog
+5, outline property (none) - magagamit natin to sa mga input types natin para may sa rili tayong border hindi yung naka default lang. Using outline with his property na none matatanggal natin yung outline then makakapaglagay tayo ng sarili natin outline using border.
+
+# Pseudo classes
+1, :hover
+2, :active
+3, :focus
+4, :checked
+
+# Transitions
+1, 
+2, 
 
 # Container positions
-- position property (absolute) - 
-- top, bottom, left, right. - para naman to sa absolute position natin para ma manipulate natin yung position ng container natin.
+1, position property (absolute) - 
+2, top, bottom, left, right. - para naman to sa absolute position natin para ma manipulate natin yung position ng container natin.
 

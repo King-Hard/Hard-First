@@ -1,0 +1,76 @@
+
+.hov{
+    background-color: #F3E5C3;
+    width: 8rem;
+    height: 2.5rem;
+    border:0.2rem solid#174E4F;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    color: #174E4F;
+    font-weight:700;
+    transition: 0.2s;
+    
+}
+
+.hov:hover{
+    background-color: #174E4F;
+    border: 0.2rem solid #F3E5C3;
+    border-radius: 0.3rem;
+    color: #F3E5C3;
+}
+
+.act{
+    background-color: #174E4F;
+    width: 8rem;
+    height: 2.5rem;
+    border: 0.2rem solid #F3E5C3;
+    border-radius: 0.3rem;
+    color:#F3E5C3;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.act:active{
+    background-color: #F3E5C3;
+    border: 0.2rem solid #174E4F ;
+    border-radius: 0.3rem;
+    color: #174E4F;
+    font-weight: 700;
+}
+
+.act a{
+    color:#F3E5C3
+}
+
+input{
+    width: 10rem;
+    height: 2rem;
+    
+}
+
+input:focus{
+    border: 0.10rem solid #174E4F;
+    border-radius: 0.2rem;
+    outline: none;
+    width: 10rem;
+    height: 2rem;
+}
+
+
+.img1{
+    overflow: hidden;
+    width: 10rem;
+    height: 5rem;
+    border: 0.16rem solid #174E4F;
+    border-radius: 0.50rem;
+    position: absolute;
+    right: 10rem;
+    bottom: 10rem;
+    
+}
+
+.img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

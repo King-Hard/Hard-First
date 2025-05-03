@@ -66,6 +66,11 @@ h1 { font-size: 2rem; }    /* 32px */
 # Transitions
 1, transition property (seconds) - para mas smooth lang transition natin kapag nagho-hover tayo, active, focus and so on.
 
+# Box Shadow
+1, box-shadow properties (#rem, #rem, #rem, #rem, color, insent)
+- Yung 1st ans 2nd # of rem is para sa position ng shadow natin, 3rd rem para kung ano ka blur shadow antin, 4rt # of rem para sa kapal nung shadow natin, then colors, and last insent funtion neto is naka pasok yung shadow don sa mismong box natin.
+
+
 # Container positions
 1, position property (absolute) - 
 2, top, bottom, left, right. - para naman to sa absolute position natin para ma manipulate natin yung position ng container natin.

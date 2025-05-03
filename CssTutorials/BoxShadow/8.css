@@ -4,7 +4,7 @@
     border: 0.10rem solid gra;
     border-radius: 0.50rem;
     overflow: hidden;
-    box-shadow: 0.3rem 0.3rem rgb(181, 177, 177);
+    box-shadow: 0.3rem 0.3rem 0.2rem 0.1rem rgb(181, 177, 177);
     
 }
 
@@ -13,4 +13,19 @@
     height: 100%;
     object-fit: cover;
     object-position: -1rem;
+}
+
+h1{
+    text-shadow: 0.1rem 0.1rem green;
+}
+
+.container1{
+    height: 10rem;
+    width: 10rem;   
+    border-radius: 0.50rem;
+    box-shadow: 0.2rem 0.2rem 1rem 0.2em rgba(0,0,0,0.2) inset;
+
+    position: absolute;
+    right: 8rem;
+    bottom: 1rem;
 }

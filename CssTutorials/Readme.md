@@ -71,7 +71,9 @@ h1 { font-size: 2rem; }    /* 32px */
 - Yung 1st ans 2nd # of rem is para sa position ng shadow natin, 3rd rem para kung ano ka blur shadow antin, 4rt # of rem para sa kapal nung shadow natin, then colors, and last insent funtion neto is naka pasok yung shadow don sa mismong box natin.
 
 
-# Container positions
-1, position property (absolute) - 
-2, top, bottom, left, right. - para naman to sa absolute position natin para ma manipulate natin yung position ng container natin.
+# Positions
+1, position property (absolute) - heto naman yung pwede natin ma manipulate yung mga positions ng mga element tags natin using this position with the property of absolute
+2, property (fixed) - maganda to gamitin sa nav bar natin katulad nung sa mga di scroll na website natin para kahit naka scroll si user makikita nya pa rin yung nav bar natin using this position fixed
+3, property (relative) - kapartner to ng absolute position natin, bali sa container yung position natin naka absolute then sa content na laman ng container natin is yung absolute position naman yung gagamitin natin para yung content malagay natin sa exact location an gusto natin paglagyan sakanya doon sa loob ng container natin
+4, PROPERTIES  (top, bottom, left, and right.) - para naman to sa absolute position natin para ma manipulate natin yung position ng container or kahit na anong element tag natin.
 

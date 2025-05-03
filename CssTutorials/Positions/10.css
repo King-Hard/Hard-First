@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #F3E5C3;
+    font-size: 2rem;
+    position: fixed;
+    top:0;
+    padding: 2rem;
+    width: 100%;
+    
+}
+
+a{
+    text-decoration: none;
+    margin: 0 1rem;
+    color: #174E4F;
+    transition: 1s;
+    font-family: Verdana, sans-serif;
+    
+}
+
+a:hover{
+    color: black;
+}
+
+.container{
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    border: 0.2rem solid black;
+    display: inline-block;
+}
+
+.container p{
+    position: absolute;
+    top: 4rem;
+    right: 3rem;
+    margin: 0;
+}

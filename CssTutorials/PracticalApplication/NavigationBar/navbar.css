@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+
+nav{
+    padding: 2rem;
+    background-color:black;
+    border: 0.2rem solid cadetblue;
+    border-radius: 0.8rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+nav a{
+    text-decoration: none;
+    color:cadetblue;
+    margin: 3rem;
+    font-size: 1.5rem;
+    font-family: Verdana, sans-serif;
+    
+}
+
+nav a:hover{
+    color: white;
+}
+

@@ -1,28 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body{
     margin: 0;
+    background-color: #F3E5C3;
 }
 
 nav{
-    padding: 2rem;
-    background-color:black;
-    border: 0.2rem solid cadetblue;
-    border-radius: 0.8rem;
+    background-color: #896509;
+    padding: 1rem;
+    width: 100%;
     position: fixed;
     top: 0;
-    width: 100%;
-
 }
 
-nav a{
-    text-decoration: none;
-    color:cadetblue;
-    margin: 3rem;
-    font-size: 1.5rem;
-    font-family: Verdana, sans-serif;
-    
+.brand-container svg{
+    width: 8rem;
 }
 
-nav a:hover{
-    color: white;
+.brand-title{
+    color: #174E4F;
+    display: inline-block;
+    font-family: "Open Sans", "Segoe UI";
 }
 
+p{
+    font-family: "Segoe UI";
+}

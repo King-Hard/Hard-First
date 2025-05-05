@@ -1,5 +1,8 @@
-
-
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="titleTealBeige">
+  <rect width="64" height="64" rx="12" ry="12" fill="#F3E5C3"/>
+  <path d="M2 30 L60 2 L54 14 L34 34 L54 34 L60 46 Z" fill="#174E4F" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M34 34 L26 62 L30 48 L14 48 L2 40 Z" fill="#174E4F" stroke="#FFFFFF" stroke-width="2"/>
+</svg>
 
 <!---
 

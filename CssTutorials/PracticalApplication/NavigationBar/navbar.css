@@ -3,23 +3,25 @@
 
 body{
     margin: 0;
-    background-color: #F3E5C3;
+    background-color: white;
 }
 
 nav{
-    background-color:white;
-}
-
-.brand-container{
-    display: inline-block;
+    background-color:#F3E5C3;
+    border-radius: 0 0 0.5rem 0.5rem;
+    box-shadow: 0 0 0.2rem 0.1rem #a89f94;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .brand-title{
+    display: inline-block;
     color: #174E4F;
     font-family: "Open Sans", Verdana, "sans-serif";
     font-size: 2rem;
     position: relative;
-    left: 4rem;  
+    left: 5rem;  
 }
 
 .links-container{
@@ -35,6 +37,8 @@ nav{
     color: #174E4F;
     font-size: 1.2rem;
     font-family: "Open Sans", Verdana, "sans-serif";
+    font-weight: 500;
+    transition: 0.2s;
 }
 
 .link:hover{
@@ -42,20 +46,37 @@ nav{
 }
 
 .btn-login{
-    color: #174E4F;
+    color: #F3E5C3;
     text-decoration: none;
     font-size: 1.2rem;
     font-family: "Open Sans", Verdana, "sans-serif";
-}
-
-.btn-login{
+    font-weight: 2;
     border: 0.2rem solid #174E4F;
     border-radius: 0.5rem;
-    padding: 0.3rem 1.5rem;
+    padding: 0.2rem 1.3rem;
+    background-color: #174E4F;
+    font-weight: 400;
+    box-shadow: 0 0.1rem 0.4rem #2a2a2a;
+    position: relative;
+    left: 1rem;
 }
 
-.btn-login:hover{
-    color: black;
-    border: 0.2rem solid black;
-    border-radius: 0.5rem;
+.header{
+    position: relative;
+    top: 5rem;
+}
+
+.home{
+    font-size: 2rem;
+    font-family: "Open Sans", Verdana, "sans-serif";
+}
+
+.about{
+    font-size: 2rem;
+    font-family: "Open Sans", Verdana, "sans-serif";
+}
+
+.contact{
+    font-size: 2rem;
+    font-family: "Open Sans", Verdana, "sans-serif";
 }

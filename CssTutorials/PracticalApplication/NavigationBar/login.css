@@ -14,8 +14,8 @@ body{
 .avalmeos{
     display: inline-block;
     position: relative;
-    left: 10rem;
-    top: 2rem;
+    left: 12rem;
+    top: 1rem;
 }
 
 .title{
@@ -35,48 +35,88 @@ body{
 .container{
     float: right;
     position: relative;
-    right: 20rem;
-    display: inline-block;
+    right: 16rem;
+    top: 1.5rem;
     background-color: #174E4F;
     width: 25rem;
-    height: 22rem;
+    height: 21.5rem;
     border-radius: 0.7rem;
-    box-shadow: 0 0 0.2rem #2a2a2a;
+    box-shadow: 0 0 0.3rem #2a2a2a;
     
 }
 
 .email{
+    font-size: 1rem;
+    color: #F3E5C3;
     outline: none;
     padding: 1rem;
     width: 21rem;
     position: relative;
     left: 0.9rem;
     top: 1rem;
-    border: 0.1rem solid gray;
-    border-radius: 0.6rem;
-}
-
-.email:focus{
     border: 0.1rem solid #F3E5C3;
     border-radius: 0.6rem;
-    box-shadow: 0 0 0.3rem #2a2a2a;
-    outline: none;
+    background-color: #174E4F;
 }
 
-
 .password{
+    font-size: 1rem;
+    color: #F3E5C3;
+    outline: none;
     padding: 1rem;
     width: 21rem;
     position: relative;
     left: 0.9rem;
     top: 1.7rem;
-    border: 0.1rem solid gray;
-    border-radius: 0.6rem;
-}
-
-.password:focus{
     border: 0.1rem solid #F3E5C3;
     border-radius: 0.6rem;
-    box-shadow: 0 0 0.3rem #2a2a2a;
-    outline: none;
+    background-color: #174E4F;
+}
+
+input::placeholder{
+    color: #F3E5C3;
+    font-size: 1rem;
+}
+
+.login{
+    padding: 0.8rem 9.8rem;
+    border: 0.1rem solid #D6C3A5;
+    border-radius: 0.6rem;
+    position: relative;
+    top: 4rem;
+    left: 0.9rem;
+    text-decoration: none;
+    color: #174E4F;
+    font-family: "Open Sans", Verdana, "sans-serif";
+    font-weight: 700;
+    font-size: 1.1rem;
+    background-color: #F3E5C3;
+    box-shadow: 0 0 0.1rem #D6C3A5;
+}
+
+.forgot{
+    text-decoration: none;
+    color: #F3E5C3;
+    position: relative;
+    top: 5.6rem;
+    left: 8.8rem;
+    font-family: "Open Sans", Verdana, "sans-serif";
+    font-size: 1rem;
+
+}
+
+.create{
+    text-decoration: none;
+    color: #174E4F;
+    background-color: #F3E5C3;
+    border: 0.1rem solid #D6C3A5;
+    border-radius: 0.6rem;
+    padding: 0.8rem 3rem;
+    position: relative;
+    top: 8.5rem;
+    left: 4rem;
+    font-family: "Open Sans", Verdana, "sans-serif";
+    font-weight: 700;
+    font-size: 1.1rem;
+    box-shadow: 0 0 0.1rem #D6C3A5;
 }

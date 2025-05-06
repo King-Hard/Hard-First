@@ -8,4 +8,5 @@ body{
     width: 11rem;
     height: 100%;
     border: 0.1rem solid #F3E5C3;
+    position: fixed;
 }

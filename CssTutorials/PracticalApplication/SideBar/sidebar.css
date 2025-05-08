@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    display: flex;
+}
+
+.side-bar{
+    background: linear-gradient(400deg, rgba(45, 168, 139, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    border: 2px solid black;
+    padding: 20px;
+    width: 220px;
+    height: 695px;
+    
+}
+
+.links a{
+    padding: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Dashboard{
+    position: relative;
+    left: 10px;
+}

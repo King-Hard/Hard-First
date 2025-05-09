@@ -6,19 +6,18 @@ body{
 .side-bar{
     background: linear-gradient(400deg, rgba(45, 168, 139, 1) 0%, rgba(0, 0, 0, 0) 100%);
     border: 2px solid black;
-    padding: 20px;
-    width: 220px;
+    padding: 16px;
+    width: 260px;
     height: 695px;
     
 }
 
 .links a{
-    padding: 40px;
-    text-decoration: none;
-    font-size: 20px;
+    display: inline-block;
 }
 
 .Dashboard{
-    position: relative;
-    left: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px 95px;
 }

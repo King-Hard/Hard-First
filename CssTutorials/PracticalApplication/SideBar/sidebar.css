@@ -4,20 +4,66 @@ body{
 }
 
 .side-bar{
-    background: linear-gradient(400deg, rgba(45, 168, 139, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    background-color: rgba(0, 255, 0, 0.05);
     border: 2px solid black;
     padding: 16px;
     width: 260px;
-    height: 695px;
+    height: 100%;
+    position: fixed;
     
 }
 
 .links a{
     display: inline-block;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 16px 22px;
+    font-family: Verdana;
+    position: relative;
+    bottom: 24px;
+
 }
 
-.Dashboard{
-    text-decoration: none;
-    border: 1px solid black;
-    padding: 15px 95px;
+.logout{
+    position: relative;
+    top: 30px;
+}
+
+.avalmeos{
+    position: relative;
+    top: 32px;
+    left: 10px;
+}
+
+.avalmeos h1{
+    display: inline-block;
+    position: relative;
+    left: 8px;
+    bottom: 20px;
+    font-family: Verdana;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.search input{
+    position: relative;
+    top: 40px;
+    left: 8px;
+    padding: 16px;
+    width: 246px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+.links{
+    position: relative;
+    top: 100px;
 }

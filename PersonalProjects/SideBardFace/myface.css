@@ -43,7 +43,6 @@ h2{
 
 .link:hover{
     background-color: #7d808f;
-    
 }
 
 .main-container{
@@ -72,4 +71,33 @@ h2{
     position: relative;
     bottom: 60px;
     border-radius: 20px;
+}
+
+.LOGOUT{
+    border-radius: 12px;
+    margin: 0;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 310px;
+    padding: 12px 22px;
+
+}
+
+.icon{
+    width: 24px;
+}
+
+.logout{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana;
+    text-decoration: none;
+    border-radius: 12px;
+    position: relative;
+    bottom: 4px;
+    transition: 0.2s;
+}
+
+.LOGOUT:hover{
+    background-color: red;
 }

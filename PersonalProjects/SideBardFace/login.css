@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+.container{
+    position: relative;
+    left: 100px;
+}
+
+.title-content{
+    display: inline-block;
+    background-color: aqua;
+}
+
+.login-container{
+    display: inline-block;
+}
+
+.input{
+    display: block;
+}

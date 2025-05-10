@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+
+nav{
+    border-radius: 0 25px 25px 0;
+    box-shadow: 0 0 5px 3px rgba(60, 80, 160, 0.4);
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle at bottom left, rgba(29, 41, 81, 0.7), rgba(15, 23, 42, 1));
+}
+
+.title{
+    color: white;
+    font-family: Verdana;
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+    margin-top: 70px;
+}
+
+h2{
+    font-weight: 400;
+}
+
+.link{
+    display: block;
+    font-size: 20px;
+    color: white;
+    font-family: Verdana;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    transition: 0.2s;
+}
+
+.link:hover{
+    background-color: #7d808f;
+    
+}
+
+.main-container{
+    margin: 0;
+    margin-left: 350px;
+}
+
+.main-container h1{
+    background: radial-gradient(circle at bottom left, rgba(29, 41, 81, 0.7), rgba(15, 23, 42, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;   
+    font-family: Verdana; 
+}
+
+.main-container p{
+    font-size: 40px;
+    font-family: Verdana;
+    position: relative;
+    bottom: 50px;
+}
+
+.main-container img{
+    position: relative;
+    bottom: 60px;
+    border-radius: 20px;
+}

@@ -1,0 +1,65 @@
+.body{
+    margin: 0;
+}
+
+nav{
+    border-radius: 0 25px 25px 0;
+    box-shadow: 0 0 5px 3px rgba(60, 80, 160, 0.4);
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle at bottom left, rgba(29, 41, 81, 0.7), rgba(15, 23, 42, 1));
+}
+
+h2{
+    font-weight: 400;
+}
+
+.brand-title{
+    color: white;
+    font-size: 24px;
+    font-family: Verdana;
+    text-align: center;
+    padding: 25px;
+}
+
+.link{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 20px;
+    padding: 12px 24px;
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    transition: 0.2s;
+}
+
+.link:hover{
+    background-color: #7d808f;
+    border-radius: 12px;
+}
+
+.main-container{
+    margin: 0;
+    margin-left: 350px;
+}
+
+.main-container h1{
+    background: radial-gradient(circle at bottom left, rgba(29, 41, 81, 0.7), rgba(15, 23, 42, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;    
+    font-size: 100px;
+    font-family: Verdana;
+}
+
+.main-container p{
+    font-size: 50px;
+    font-family: Verdana;
+}

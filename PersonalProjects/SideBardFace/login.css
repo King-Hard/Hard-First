@@ -3,21 +3,108 @@ body{
 }
 
 .container{
-    position: relative;
-    left: 100px;
+    margin: 0;
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-right: 200px;
 }
 
 .title-content{
-    display: inline-block;
-    background-color: aqua;
+    position: relative;
+    top: 100px;
 }
 
-.login-container{
-    display: inline-block;
+.title-content h1{
+    background: radial-gradient(circle at bottom left, rgba(29, 41, 81, 0.7), rgba(15, 23, 42, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;   
+    font-family: Verdana; 
+}
+
+.title-content p{
+    font-size: 32px;
+    font-family: Verdana;
+    position: relative;
+    bottom: 35px;
+    left: 4px;
+}
+
+.login-container{ 
+    background: radial-gradient(circle at bottom left, rgba(29, 41, 81, 0.7), rgba(15, 23, 42, 1));
+    box-shadow: 0 0 6px 2px rgba(60, 80, 160, 0.4);
+    border-radius: 16px;
+    width: 400px;
+    height: 350px;
+    position: relative;
+    left: 650px;
+    bottom: 220px;
 }
 
 .input{
     display: block;
+    padding: 16px;
+    width: 332px;
+    position: relative;
+    top: 16px;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 12px;
+    border: 2px solid white;
+    outline: none;
+    font-size: 18px; 
+    color: white;
+    background: radial-gradient(circle at bottom left, rgba(29, 41, 81, 0.7), rgba(15, 23, 42, 1));
+}
+
+.input::placeholder{
+    color: white;
+}
+
+.login{
+    padding: 16px 155px;
+    border: 2px solid;
+    border-radius: 12px;
+    margin-top: 40px;
+    margin-left: 16px;
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-family: Verdana;
+}
+
+.login:hover{
+    background: radial-gradient(circle at bottom left, rgba(29, 41, 81, 0.7), rgba(15, 23, 42, 1));
+
+}
+
+.forgot{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+    margin-top: 8px;
+    margin-left: 220px;
+   
+}
+
+.create{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Verdana;
+    padding: 16px 30px;
+    margin-top: 24px;
+    position: relative;
+    left: 78px;
+    border: 2px solid;
+    border-radius: 12px;
+    background: radial-gradient(circle at bottom left, rgba(29, 41, 81, 0.7), rgba(15, 23, 42, 1));
 }
 
 a{

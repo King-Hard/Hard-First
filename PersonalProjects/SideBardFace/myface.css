@@ -69,7 +69,7 @@ h2{
 
 .main-container img{
     position: relative;
-    bottom: 60px;
+    bottom: 20px;
     border-radius: 20px;
 }
 
@@ -80,11 +80,12 @@ h2{
     margin-right: 12px;
     margin-top: 310px;
     padding: 12px 22px;
-
+    transition: 0.2s;
 }
 
 .icon{
     width: 24px;
+    margin-top: 5px;
 }
 
 .logout{
@@ -94,8 +95,7 @@ h2{
     text-decoration: none;
     border-radius: 12px;
     position: relative;
-    bottom: 4px;
-    transition: 0.2s;
+    bottom: 5px;
 }
 
 .LOGOUT:hover{

@@ -1,6 +1,13 @@
-# JavaScript
+# Dispalying Output
 1, console.log() - heto yung ginagamit natin pang print ng output, example gusto natin magpalabas ng hello world na text gagamit lang tayo ng console.log to print the word hello world.
 
 2, document.getElemntById("name nung id natin don sa element tag, example sa h1 natin.") - nagagawa neto is nakukuha natin yung elemnt tag natin kumbaga handle natin yung magigigng laman ng h1 natin or element tag natin using document.getElemntById("") natin. Then kung gusto natin palitan yung value ng h1 natin .innerHTML lang then equal sign tapos yung word na gusto natin ilagay na value sa loob ng h1 natin, example Hello World!
 
-3, 
+
+# Varibales and DataTypes
+1, let - Heto yung ginagamit natin pang declare ng variable, then yung let din nato is ginagamit natin kung gusto natin na yung variable natin is pwede natin i-change, and also heto yung default or sya dapat yung pinaka ginagamit talaga antin na pang declare ng variable natin.
+2, const - heto naman ginagamit din natin sya sa pag declare ng variable, same lang sila ni let. Ang pinagkaiba lang is si const hindi na natin pwede ibahin yung default value na inilagay natin sa loob ng const varibale natin. Unlike kay let na pwede na pwede pa natin i-change yung value nya.
+3, datatypes - meron tayong string, number, and boolean. Sa string heto yung ginagamit natin para sa mga text, sa number naman para sa numbers natin, and last yung boolean ginagamit natin to para sa condition natin, true ba or false.
+4, concatination using (+ sign or , sign) - ginagamit naman natin to para sa pagdugtong-dugtong ng mga variabes natin, or kahit na anong gusto natin pagsamasamahin.
+
+# Numbers and Operators

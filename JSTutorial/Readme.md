@@ -25,5 +25,14 @@
 
 
 # Arrays
-1, 
+1, creating array - need lang natin natin ng let variable and then bracket, tapos don na natin i-store yung mga value/elements natin.
+
+2, adding value - meron tayo 2 ways para makapag-add ng value sa loob ng array natin:
+push - variable.push("value") - sa hulihan ng array natin madadagdag yung value
+unshift - variable.unshift("value") - heto naman sa unahan ng array natin madadagdag.
+
+3, deleting value - meron din tayong 2 ways sa pag delete ng value sa loob ng array natin:
+pop - varibale.pop() - yung matatanggal na value is yung nasa hulian ng array natin.
+shift - varibale.shift() - heto naman yung matatanggal na value is yung nasa unahan ng array natin.
+
 

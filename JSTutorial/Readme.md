@@ -14,3 +14,16 @@
 1, Meron tayong Multiplication, Division, Addition, Subtraction, Exponent, and Remainder. (*, /, +, -, **, and %.)
 2, PEMDAS - parenthesis, exponent, multiplication, division, addition, and subtraction. 
 (Mahalaga to sa conversion, since pwede natin manipulate yung solution natin in 1 line. kagaya sa kukuin natin yung average natin sa final grades pag plus muna natin yung 8 subjects sa loob ng parenthesis since sya yung uunnahin ng system natin, after non lagay tayo ng division 8 don sa labas na parenthesis natin.)
+
+# Strings
+1, using parseInt or parseFloat - makakapag-convert tayo ng string value to number value, example let varibale = pasrseInt or parseloat("string number") tapos yung number natin na naka string magagawa natin syang number using parseInt or parseFloat.
+
+2, string template - using backtick "``" sa loob ng backtick natin pwede na tayo mag concatination pero hindi using + sign kundi gamit nayung backtick natin. Gawa lang tayo ng backtick lagay na tayo strings tapos pagmaglalagay tayo ng varibale need lang natin ng dollar sign and curly braces ${variable} pwede na ulit tayo maglagay ng mga strings hindi nanatin need gumagmit ng + sign sa pag concatinate gagamit na lnag tayo ng backtick, dollar sign and curly braces.
+
+3, Container index
+- index - heto yung 0, 1, 2, 3, and so on (ginagamit natin to kunyari sa isang container na mya mga lamang items, then may certain item lang tayo ng gusto i-select pwede natin to gamitin. example sa container may 1 to 5 na nakalgay tas gusto ko b=palabasin yung number 3 so bibilang tayo umpisa sa 0 then ang aswer is varibale then 2 para ma call natin sya.) Sa paggamit neto need natin is naka square bracket tayo sa container variable and then doon sa paglagay natin ng variable tapos index.
+
+
+# Arrays
+1, 
+

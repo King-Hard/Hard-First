@@ -11,3 +11,6 @@
 4, concatination using (+ sign or , sign) - ginagamit naman natin to para sa pagdugtong-dugtong ng mga variabes natin, or kahit na anong gusto natin pagsamasamahin.
 
 # Numbers and Operators
+1, Meron tayong Multiplication, Division, Addition, Subtraction, Exponent, and Remainder. (*, /, +, -, **, and %.)
+2, PEMDAS - parenthesis, exponent, multiplication, division, addition, and subtraction. 
+(Mahalaga to sa conversion, since pwede natin manipulate yung solution natin in 1 line. kagaya sa kukuin natin yung average natin sa final grades pag plus muna natin yung 8 subjects sa loob ng parenthesis since sya yung uunnahin ng system natin, after non lagay tayo ng division 8 don sa labas na parenthesis natin.)

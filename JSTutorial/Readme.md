@@ -35,4 +35,24 @@ unshift - variable.unshift("value") - heto naman sa unahan ng array natin madada
 pop - varibale.pop() - yung matatanggal na value is yung nasa hulian ng array natin.
 shift - varibale.shift() - heto naman yung matatanggal na value is yung nasa unahan ng array natin.
 
+# Conditianl Statement
+1, comparison meron tayong for string and numbers
+-  double equal - ginagamit to pag gagawa tayo ng condition using strings, variable same daw ba sa isa pa nating variable
+- not equal - ginagamit din natin to sa condition pag strings, yung varibale natin not equal daw sa isa nating variable
+- greater than - heto naman sa numbers, yung unang variable daw natin mas mataas kesa sa next variable natin
+- less than - heto naman sa numbers, mas mababa daw yung first variable natin kesa sa second variable
+- greater than equal - heto naman sa numbers, mas mataas daw or equal yung first variable natin kesa sa second variable natin
+- less than equal - heto naman sa numbers, mas mababa naman daw yung first variable natin kesa sa 2nd variable
+
+2, if and else - 
+if(variable  == variable){
+    condition
+} yung if natin isang beses lang natin to pwede gamitin 
+else{
+    condition
+} yung else natin sya yung magru-run pag di na meet ng uif natin yung ginawa nating condition sakanya
+
+3, else if(condition){
+    condition
+} yung else if naman maganda to gamitin pag gagamit tayo ng multiple if condition instead na puro if gagawin natin is if muna tapos yung mga sumunod na condition is else if na gagamitin natin.
 

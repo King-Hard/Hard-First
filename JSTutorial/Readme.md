@@ -56,3 +56,11 @@ else{
     condition
 } yung else if naman maganda to gamitin pag gagamit tayo ng multiple if condition instead na puro if gagawin natin is if muna tapos yung mga sumunod na condition is else if na gagamitin natin.
 
+# Logical Operators
+1, AND && - dapat yung dalawa nating condition is mag tugma para mag run yung condition natin, if hindi magru-run na yung else natin.
+
+2, OR || - dapat isa sa dalawa nating condition is ma met natin para mag run yung condition natin, then kung wala ni isa tumama sa concition natin magru-run ngayon yung else natin.
+
+3, nested if else - heto naman yung if and else natin na may laman ding if and else kumbaga para sayang anak ng if natin may lamang if else, depende kat san tayo mag nested pwede sa if ba sa else, anywhere.
+
+# Switch

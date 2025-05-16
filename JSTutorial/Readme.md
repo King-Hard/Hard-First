@@ -64,3 +64,11 @@ else{
 3, nested if else - heto naman yung if and else natin na may laman ding if and else kumbaga para sayang anak ng if natin may lamang if else, depende kat san tayo mag nested pwede sa if ba sa else, anywhere.
 
 # Switch
+1, switch - heto yung pinaka body natin para makagawa ng mga condition yung switch, case, and break.
+Need lang natin ng let variable, then gawa tayo ng switch function open and close parenthesis lagay lang natin yung variable kung san mangagaling yung input. Then dito na papasok yung case 
+
+2, case - heto yung magiging if natin parang sa conditional statement lang, bali case number or string tapos colon. Saka tayon gagawa ng condition sa baba nya. Then dito na papasok yung break
+
+3, break - heto yung pipigil sa condition natin kapagka na met nya na yung condition na need natin. Para hindi na sya mag tuloy-tuloy.
+
+4, default - heto naman yung parang else natin sa conditional statement, pag yung inenter ni user di na meet ng case natin or wala sa case natin yung iniput ni user na value saka to magru-run.

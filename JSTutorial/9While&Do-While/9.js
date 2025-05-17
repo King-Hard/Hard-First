@@ -21,7 +21,31 @@ let n = 0;
 let sum = 0;
 
 while(numbers[n]){
-    console.log(numbers[n])
-    n + sum;
+    sum += numbers[n];
+    n++;
 }
+
+console.log(sum)
+
+let lives = 3;
+let answer = String(prompt("3 = 2: "));
+
+while(answer != "5"){
+    lives--;
+    console.log(`Your answer: ${answer} is wrong! Lives left ${lives}.`);
+
+    if(lives === 0){
+        console.log("You Lose!")
+        break;
+    }
+
+    let answer = String(prompt("3 = 2: "));
+
+    if(answer === "5"){
+        console.log("You Won!");
+        break;
+    }
+}
+
+
 

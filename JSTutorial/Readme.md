@@ -72,3 +72,42 @@ Need lang natin ng let variable, then gawa tayo ng switch function open and clos
 3, break - heto yung pipigil sa condition natin kapagka na met nya na yung condition na need natin. Para hindi na sya mag tuloy-tuloy.
 
 4, default - heto naman yung parang else natin sa conditional statement, pag yung inenter ni user di na meet ng case natin or wala sa case natin yung iniput ni user na value saka to magru-run.
+
+# While loop
+1, while - function neto paulit-ulit na pag-run ng output natin or yung condition na nasa loob na while loop natin.
+
+console.log("Hi! My name is John Jersie Santiago. I live in a quiet town and I enjoy creating simple games and quizzes using JavaScript. During my free time, I like reading stories, watching science videos, and learning how to code. I just turned 17 years old last week, and I’m excited to build more projects as I keep learning!");
+
+let age = String(prompt("Based on the story, how old is John Jersie?: "))
+lives = 3;
+
+while(age != "17"){
+    lives--;
+    console.log(`Your answer: ${age} is wrong! Lives left ${lives}.`)
+
+    if(lives === 0){
+        console.log("You Lose!)
+        break
+    }
+
+    age = String(prompt("Based on the story, how old is John Jersie?: "))
+
+    if(age === "17"){
+        console.log("You Won!")
+        break
+    }
+
+}
+
+2, iterate array - printing all output na nasa loob ng array natin.
+let array = [1, 2, 3, 4, 5];
+let i = 0;
+
+while(array[i]){
+    console.log(array[i]);
+    i++;
+}
+// output neto is ilalabas nya lahat ng values sa loob ng array natin
+
+3, break - mahalaga to since heto yung gagamitin natin na pang stop nung condition natin, since naka while tayo kahit na met na natin yung condition may loop pa rin sya. Kaya dit ona papasok yung break natin.
+

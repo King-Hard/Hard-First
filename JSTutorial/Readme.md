@@ -111,3 +111,31 @@ while(array[i]){
 
 3, break - mahalaga to since heto yung gagamitin natin na pang stop nung condition natin, since naka while tayo kahit na met na natin yung condition may loop pa rin sya. Kaya dit ona papasok yung break natin.
 
+# For Loop 
+1, for loop - yung for loop natin parang while loop lang din sya naglalabas ng output na naka infinite. Pero and advantage neto is mas napapaikili natin yung code since pwede na tayo mag lagay ng variable with value and condition sa loob ng for loop natin unlike sa while loop na need pa natin mag gumawa ng ilang varibale to run the condition they give to the system.
+
+
+for(i = 0; variable > 5; i++){
+    console.log("Hello World)
+}
+// Dito sa for loop - yung variable, condition, and operator (optional) is sa loob na ng for loop natin nakalagay instead na gumawa pa tayo ng variable sa labas and mag condition pa tayo, dito 1 line na lang then yung ipapagawa natin. Bali naka tipid tayo ng 3-5 lines of code.
+
+
+2, interate - same langdin to sa iterate ng while loop, pagkuha lang din ng mga laman ng array variable natin. 
+
+let array = [mga items natin];
+
+for(i = 0; array < 0; i++){
+    console.log(array[i])
+}
+// halos same lang sya sa for in natin pero dito may condition pa tayo pero don sa fon in gagamit na lang tayo ng variable then gawa tayo for loop let i in variable then console log na natin yung variable[i] natin.
+
+3, for in - heto naman yung easiest way or pinakamaikling way para mag iterate tayo or para ma iplabas natin lahat ng out put sa loob ng array natin using for(let i "in" variable)
+Example:
+let variable = [mga items natin];
+
+for(let i in variable){
+    console.log("variable[i])
+}
+// out put neto is maipapalabas natin lahat ng laman nung array natin.
+

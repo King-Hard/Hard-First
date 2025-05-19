@@ -1,7 +1,7 @@
 container = [];
 
 while(true){
-
+    console.log("Inventory Menu")
     console.log("1. Add Product");
     console.log("2. View all Product");
     console.log();

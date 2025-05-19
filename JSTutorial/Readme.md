@@ -139,3 +139,88 @@ for(let i in variable){
 }
 // out put neto is maipapalabas natin lahat ng laman nung array natin.
 
+# Json Data Container
+1, json - Yung json natin is para syang container or folder ng isang bagay for example peron info ng peron ganon ngayon since may json na tayo which is the person syempre maglalagay tayo ng mga file sa loob ng folder natin na json. Kunng may person tayo ang pwede nyang laman: Name, age, sex, and so on. then kung may exact value tao lagay lang natin sa tabi ng variable natin kagay sa name then colon saka tayo gagwan ng string or number ba kung ano gusto nati ilagay sa loob ng peron file natin which are names, age, sex, and so on.
+
+let name = prompt("Name : ");
+let age = prompt("Age   : ");
+
+// heto na yung json natin gawa lang tayo ng folder name which is the person variable natin = then curly braces sa loob ng curly braces natin don nanatin ilalagay yung files natin. What i mean yung value na gusto natin ilagay sa json natin since naka person tayo lalagay mna tayo ng name and age lang.
+Ngayon pag meron na tayong file variable pwede nantin ilagay yung data sa loob ng file natin. Pwede na tayo mag set ng value or pwede rin na galing kay user using varibale na ginamit natin don sa pag input ni user na ng data which are name and age.
+
+let person = {
+    name: name,
+    age: age
+}
+
+console.log(person.name) 
+
+// kung gusto natin na makuha yung value na nasa loob ng person natin or yung nilagay ni user need lang natin ng console.log(person.name) // ginawa lang natin folder.file kinuha lang natin yung file sa loob ng folder natin para i-print. Or kaya naman lahat n g value sa loob ng folder natin deretsyo na agad tayo sa pinaka variable ng folder natin yung folder.name kase is para lang sa certain na file na gusto natin i-print.
+
+
+2, json getting value - pagkuha lang natin ng certain file sa loob ng folder natin using tuldok or dot ( . )
+
+let firstName = String(prompt("Name: "));
+let firstName = Number(prompt("Age: "));
+
+let person = {
+    name: firstName,
+    age: age
+}
+console.log(`My name is: ${person.name}.`)
+// output neto is makukuha kang natin na file sa folder is yung name since gumamit tayo ng tuldok pangkuha nati nng certain file sa loob ng folder natin kahit na more than 1 yung files natin since gumamit nga lang tayo ng tuldok di masasama yung ibang file na nas aloob ng folder natin. Heto yung function ng json getting file/value natin.
+
+
+3, json array - heto mahalaga rin to pag yung json natin is kukuha tayo ng multiple folder then kada folder yung laman nila na file pwede natin makuha.
+Example meron tayong empty container para sa mga folder na ilalagay natin depende sa ganong karaming folder ang gagwin ni user
+
+// container ng mga folders natin.
+let container = [ ];
+
+// while true para maka unli hingi tayo ng input kay user.
+while(true){
+    console.log("Inventory Menu");
+    console.log("1. Add Student");
+    console.log("2. View All Students");
+
+    let choices = Number(prompt("Enter choice: "));
+
+    if(choices === 1){
+        let name = String(prompt("Name : "));
+        let age = String(prompt("Age   : "));
+        let sex = String(prompt("Sex   : "));
+
+        let person = {
+            name: name,
+            age: age,
+            sex: sex
+        }
+
+        // sa container daw natin mag pu-push tayo or magdadagdag tayo ng item ang idadagdag natin is yung folder natin na person, bali lahat ng files s aloob ng folder person natin is malalagay na ngayon sa empty container ng folders natin.
+
+        container.push(person)
+        console.log("Student sucessfully added.")
+    }
+
+    else if(choices === 2){
+        // dito na natin gagawin yung json array na natutotun na natin.
+
+        // gumamit lang tayo dito nag for in, for para sa i natin in container it means kada folder na nasa loob ng container folder natin.
+
+        // kukunin daw natin yung bawat folder na yon sa loob ng folder container natin, para to sa for in natin na ginawa.
+
+        for(let i in container){
+
+            // console.log lang daw natin bawat folder na nasa loob ng folder container natin pero dapat isa isa kaya dito na papasok yung array index natin sa container daw . file since may index tayo na ginawa kukuin nya lahat ng name sa loob ng folder natin para malagyan nng maayos na format.
+
+            // console lang daw natin yung yung bawat lamn sa loob ng container natin na folder with their file name which are name, age, and sex.
+            console.log(`Name : ${container[i].name}.`);
+            console.log(`Age  : ${container[i].age}.`)
+            console.log(`Sex  : ${container[i].sex}.`)
+        }
+    }
+
+    else{
+        console.log("Invalid Input")
+    }
+}

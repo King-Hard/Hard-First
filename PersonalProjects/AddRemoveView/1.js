@@ -15,7 +15,7 @@ while(true){
     if(choice === 1){
         let productName = String(prompt("Product name: "));
         let productPrice = Number(prompt("Product price: "));
-        let productQuantity = String(prompt("Product quantity: "));
+        let productQuantity = Number(prompt("Product quantity: "));
         console.log();
         
         let product = {

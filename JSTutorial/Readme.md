@@ -224,3 +224,58 @@ while(true){
         console.log("Invalid Input")
     }
 }
+
+
+# Functions
+1, function - yung function ginagamit natin to para mag hold ng codes, kumbaga para syang component ready to use na ca-call na lang natin sya. Maganda rin to kase using this mas mapapaikli natin yung lines of code na magagamirt natin.
+
+Code:
+function variable(){
+    codes
+}
+
+ginamit lang natin yung function na keyword then variable saka tayo maglalagay ng parenthesis. After those steps, punta na tayo sa loob ng function variable don na ngayon natin ilalagay yung mga codes na need natin kapag-cinall natin yung function nato.
+
+2, comment - multiple lines using /* comments */
+
+3, adding all numbers in container - heto naman pagkuha ng tatal sum ng mga numbers natin na nasa loob ng isang container.
+
+Code: 
+let container = [ ];
+
+funtion addNumber(){
+    let num1 = Number(prompt("Number: "));
+    container.push(num1)
+
+    console,log("Number added!);
+    console.log();
+}
+
+function addAllnumbers(){
+    let sum = 0;
+    for(let number in container){
+        sum += container[number];
+    }
+    console.log(`Sum of all numbers: ${sum}.`);
+    console.log();
+}
+
+while(true){
+    console.log("1. Add number");
+    console.log("2. Sum of all numbers");
+
+    let choice = String(prompt("Number: "));
+
+    if(choice === 1){
+        addNumber();
+    }
+
+    else if(choice === 2){
+        addAllNumbers();
+    }
+    
+    else{
+        console.log("Invalid Number!");
+        console.log();
+    }
+}

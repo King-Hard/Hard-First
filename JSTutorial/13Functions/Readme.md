@@ -7,4 +7,13 @@ Yung function para syang component ready to use na anytime you want, ca-call mo 
 
 2, comment - multiple lines ng comment gagamit lang tayo ng /* comments */.
 
-3, add all numbers - using this method
+3, add all numbers - using this method pag pina-input natin si user ng maraming numbers syempre matik naka store sya sa isang container natin. 
+
+Ngayon para kunin yung sum ng mga numbers natin sa loob ng container need lang ng 
+
+sum = 0;
+for(let number in numbersContainer){
+    sum += numbersContainer[numbers];
+}
+
+console.log(`Sum of all numbers: ${sum}.`);

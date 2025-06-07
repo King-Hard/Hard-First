@@ -32,9 +32,9 @@ let students = [
 ];
 
 
-const newStudent = students.map((student) =>{
-    return student
-})
+const newStudent = students
+    .filter(student => student.married === true)
+    .map(student => `First name: ${student.f_name} and Last name: ${student.l_name}!!`)
 
 console.log(newStudent)
 
